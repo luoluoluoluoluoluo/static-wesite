@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/setHomeSetFav.js" charset="gb2312"></script>
+	<script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/mf-pattern/mF_YSlider.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/mf-pattern/mF_YSlider.css"/>
+	<link rel="stylesheet" type="text/css" href="main2.css">
+	
+</head>
+<body>
+<div class="top">
+	<div class="top_content">
+		<ul>
+			<li><a href="#">联系我们</a></li>
+			<li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+			<li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+		</ul>
+	</div>
+</div>
+			
+<div class="wrap">
+	<div class="logo">
+		<div class="left_logo"><img src="images/logo.jpg" alt="慕课网"/></div>
+		<div class="right_logo"><img src="images/tel.jpg" alt="服务热线"/>热线电话：<span class="tel">123-456-789<span></div>
+	</div>
+
+	<div class="nav">
+		<div class="nav_left"></div>
+		<div class="nav_mid">
+			<div class="nav_mid_left">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><a href="list.html">关于慕课</a></li>
+					<li><a href="list.html">新闻动态</a></li>
+					<li><a href="list.html">课程中心</a></li>
+					<li><a href="list.html">在线课程</a></li>
+					<li><a href="list.html">人才招聘</a></li>
+				</ul>
+			</div>
+			<div class="nav_mid_right">
+				<form action="" method="post">
+					<input type="text" class="search_text"/>
+				</form>
+			</div>
+		</div>
+		<div class="nav_right"></div>
+	</div>
+
+	<div class="ad" id="picBox" style="height:243px">
+		<img src="images/ad.jpg"/>
+	</div>
+
+	<div class="list_main">
+		<div class="news_type">
+			<h2>新闻中心</h2>
+			<div class="news_type_content">
+				<ul>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">公司新闻</a></li>
+					<li><a href="list.html">公司新闻</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="list_box">
+			<div class="title">
+		        <h2 class="titile_left">ÐÂÎÅÖÐÐÄ</h2>
+		        <span class="title_right"><a href="#">More&gt;&gt;</a></span> 
+        	</div>
+        	<div class="news_list">
+		        <ul>
+		          <li><span>2014-06-01</span> <a href="news.html">¡¾Ä½¿Í·ÃÌ¸ ÓÃ»§Æª¡¿¡°ÓÐÎªŒÅË¿¡±ÔÚÂ·ÉÏ</a></li>
+		          <li><span>2014-06-01</span><a href="news.html">¡¾ÓÐ½±»î¶¯¡¿¸ø¸¸Ç×µÄÈýÐÐÊéÐÅ</a></li>
+		          <li><span>2014-05-30</span><a href="news.html">¡¶³ÌÐòÔ³£¬ÇëÉ¹³öÄãµÄÍ¯Äê¡·»î¶¯»ñ½±¹«¸æ</a></li>
+		          <li><span>2014-05-28</span><a href="news.html" title="aa">¡¾Ä½¿Î·ÃÌ¸¡¿ÆÆ¼ë³Éµû¡ª¡ªÃÀÅ®³ÌÐòÔ±µÄÍÉ±äÊ·</a></li>
+		          <li><span>2014-06-01</span> <a href="news.html">¡¾Ä½¿Í·ÃÌ¸ ÓÃ»§Æª¡¿¡°ÓÐÎªŒÅË¿¡±ÔÚÂ·ÉÏ</a></li>
+		          <li><span>2014-06-01</span><a href="news.html">¡¾ÓÐ½±»î¶¯¡¿¸ø¸¸Ç×µÄÈýÐÐÊéÐÅ</a></li>
+		          <li><span>2014-05-30</span><a href="news.html">¡¶³ÌÐòÔ³£¬ÇëÉ¹³öÄãµÄÍ¯Äê¡·»î¶¯»ñ½±¹«¸æ</a></li>
+		          <li><span>2014-05-28</span><a href="news.html" title="aa">¡¾Ä½¿Î·ÃÌ¸¡¿ÆÆ¼ë³Éµû¡ª¡ªÃÀÅ®³ÌÐòÔ±µÄÍÉ±äÊ·</a></li>
+		        </ul>
+      		</div>
+      		
+      		<div class="page">
+      			<a href="#">首页</a><a href="#">&lt;</a><a href="#">1</a><a href="#">2</a><a href="#">3</a><a href="#">...</a><a href="#">&gt</a><a href="#">末页</a>
+      		</div>
+		</div>
+	</div>
+<div class="copyright">
+	<div class="copyright_content">
+		<ul>
+			<li>关于
+				<ul>
+					<li>品牌故事</li>
+					<li>联系我们</li>
+					<li>加入我们</li>
+					<li>版权声明</li>
+				</ul>
+			</li>
+			<li>课程
+				<ul>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+				</ul>
+			</li>
+			<li>关注
+				<ul>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+				</ul>
+			</li>
+			<li>留言
+				<ul>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+					<li>前端开发</li>
+				</ul>
+			</li>
+			<li><img src="images/weixin.png" alt="Î¢ÐÅ¹Ø×¢" width="30" height="27" />微信关注
+				<ul>
+		          <li><img src="images/qrcode.jpg" alt="É¨Ãè¹Ø×¢Ä½¿ÎÍø¹Ù·½Î¢ÐÅ" width="102" height="102" /></li>
+	        	</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+	
+</body>
+</html>
